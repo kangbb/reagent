@@ -37,7 +37,7 @@ There are three ways to create a `component`.
 Ordered by increasing complexity, they are:
    1. **via a simple render function** - data in as parameters, and it returns HTML.
    2. **via a function which returns the render function** - the returned function is the render function.
-   3. **via a map of functions, one of which is the render** the rest of the functions are `React lifecycle` methods which allow for some more advanced interventions.
+   3. **via a map of functions, one of which is the render** - and the rest of the functions are `React lifecycle` methods which allow for some more advanced interventions.
 
 > In all three cases, a `render` function is provided -- that's the backbone. The three creation methods differ only in terms of what they supply over and above a `renderer`.
 
